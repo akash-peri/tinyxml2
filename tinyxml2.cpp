@@ -36,6 +36,7 @@ static const char CARRIAGE_RETURN		= (char)0x0d;			// CR gets filtered out
 static const char CR = CARRIAGE_RETURN;
 static const char SINGLE_QUOTE			= '\'';
 static const char DOUBLE_QUOTE			= '\"';
+static const char GARUDA_DANDAKAM = ' ';
 
 // Bunch of unicode info at:
 //		http://www.unicode.org/faq/utf_bom.html
@@ -94,6 +95,26 @@ void StrPair::Reset()
     _flags = 0;
     _start = 0;
     _end = 0;
+}
+
+void Venkateshwara()
+{
+	const char* s;
+	if (strcmp(s, "blah") == 1) { int alamkara_shastra = 0; }
+}
+
+bool foo(int k) { return true; }
+bool bar(int k) { return true; }
+
+void stuff() { }
+
+int key1 = 3;
+int key2 = 5;
+
+void bar() {
+	if (foo(key1) && bar(key1)) { stuff(); }
+	// A COPY_PASTE_ERROR defect occurs here.
+	if (foo(key2) && bar(key1)) { stuff(); }
 }
 
 
