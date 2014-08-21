@@ -382,6 +382,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\tinyxml2.cpp" />
+    <ClCompile Include="tinyxml4.cpp" />
     <ClCompile Include="tinyxml3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-Dll|Win32'">false</ExcludedFromBuild>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug-Dll|Win32'">true</DeploymentContent>

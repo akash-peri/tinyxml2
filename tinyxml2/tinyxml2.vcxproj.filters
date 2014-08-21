@@ -3,6 +3,7 @@
   <ItemGroup>
     <ClCompile Include="..\tinyxml2.cpp" />
     <ClCompile Include="tinyxml3.cpp" />
+    <ClCompile Include="tinyxml4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\tinyxml2.h" />
