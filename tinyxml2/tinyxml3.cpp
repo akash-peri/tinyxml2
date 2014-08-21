@@ -1,4 +1,5 @@
 class tinyxml3 {
+
 	int square(int x) {
 		return x*x;
 	}
@@ -11,6 +12,9 @@ class tinyxml3 {
 			// "square(a)" should read "square(b)"
 			result = square(a) + square(y);
 		}
+		int ac;
 		return result;
 	}
+
+	int ab;
 };
